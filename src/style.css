@@ -1,0 +1,1033 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+a
+{
+    text-decoration: none;
+}
+ul li
+{
+    list-style: none;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.spacer
+{
+    padding: 100px 0;
+}
+
+
+/* info header css start */
+
+.info-header
+{
+    margin: 10px 0;
+    vertical-align: center;
+    font-size: smaller;
+}
+.flex
+{
+    display: flex;
+}
+.com-info
+{
+    width: 50%;
+}
+.com-mail span
+{
+    margin-right: 5px;
+    font-size: 13px;
+}
+.com-contact span
+{
+    margin-right: 5px;
+}
+.com-contact
+{
+    margin-left: 30px;
+}
+.com-social
+{
+    text-align: right;
+    width: 50%;
+}
+.com-social a
+{
+    font-weight: 500;
+    margin: 0 7px;
+    font-size: 13px;
+    color: #28262b;
+}
+
+/* info header css over */
+
+/* main header cs start */
+
+.logo img
+{
+    width: 70%;
+}
+.main-header
+{
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    /* top: 0; */
+    left: 0;
+}
+.main-menu
+{
+    display: flex;
+    padding: 16px 0 ;
+    margin-left: 125px;
+}
+.main-menu li
+{
+    position: relative;
+}
+.main-menu li a
+{
+    padding: 20px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.main-menu li a:hover
+{
+    color: #337ab7;
+}
+
+/* main header css over */
+
+/* slider css start */
+
+.slider-img
+{
+    background-image: url(images/img1.jpg);
+    height: 80vh;
+    width: 100%;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* position: fixed; */
+    text-align: center;
+}
+.slider-img p
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    background-color: black;
+    padding: 15px;
+    opacity: 0.7;
+}
+/* slider css over */
+
+/* about us section css start */
+
+.about-img
+{
+    position: relative;
+    width: 100%;
+    right: 20px;
+}
+.about-img img
+{
+    margin: 0;
+    height: 570px;
+    /* position: absolute; */
+    left: 10px;
+}
+.about-des h3
+{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 0 5px;
+}
+.about-des h5
+{
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.about-des p
+{
+    margin: 0 0 30px;
+    color: #555;
+    font-size: smaller;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+.about-btn
+{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #207fdd;
+    transition: all .3s ease;
+}
+.about-btn:hover
+{
+    border: 2px solid #207fdd;
+    background-color: white;
+    color: #207fdd;
+}
+.about-line
+{
+    margin: 50px 0;
+}
+
+/* about us section css over */
+
+/* box section css start */
+
+.box
+{
+    width: 33.33%;
+    background-color: #2083e6;
+}
+.inner-box
+{
+    height: 350px;
+    padding: 50px 30px;
+    color: white;  
+    /* background-color:#207fdd; */
+}
+.inner-box h1
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.inner-box p
+{
+    margin: 0 0 40px;
+    line-height: 1.43;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.box-btn 
+{
+    background-color: #1377dc;
+    border-radius: 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: 2px solid transparent;
+    transition: all .3s ease;    
+}
+.box-btn a
+{
+    font-weight: 700;
+}
+.box-btn:hover
+{
+    background-color: white;
+    color: #1377dc;
+}
+.inner-box h3
+{
+    font-weight: 700;
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.inner-box ul li
+{
+    padding: 8px 0;
+    font-size: small;
+}
+.text-right
+{
+    text-align: right;
+}
+#box2
+{
+    background-color: #1679dd;
+    /* padding-right: 10px; */
+}
+#box3
+{
+    background-color: #0d6ecf;
+}
+.inner-box .right
+{
+    text-align: right;
+    /* position: absolute; */
+    /* right: 90; */
+    padding-left: 95px;
+}
+.inner-box span
+{
+    padding-right: 5px;
+}
+.inner-box hr
+{
+    margin: 13px 0;
+    border-top: #6aa1d8;
+}
+/* box section css over */
+
+/* service section css start */
+
+.service-ttl
+{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.service-ttl span
+{
+    color: #555;
+}
+.peta-ttl
+{
+    text-align: left;
+    margin-bottom: 40px;
+}
+.service-ttl h3
+{
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 5px;
+    letter-spacing: 0.3px;
+}
+.service-1
+{
+    width: 33.33%;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+.service-1 span
+{
+    font-size: 50px;
+    color: #f589a1;
+    padding-right: 20px;
+}
+.peta-ttl h4
+{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+    line-height: 1.1;
+    text-align: left;
+}
+.peta-ttl p
+{
+    font-size: 14px;
+    line-height: 1.43;
+    color: #555;
+    text-align: left;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+#s-2 span
+{
+    color: #e9b782;
+}
+#s-3 span
+{
+    color: #a7b5f6;
+}
+#s-4 span
+{
+    color: #e35151;
+}
+#s-5 span
+{
+    color: #fe976c;
+}
+#s-6 span
+{
+    color: #e9aae1;
+}
+#s-7 span
+{
+    color: #8cc6f4;
+}
+#s-8 span
+{
+    color: #9cdb70;
+}
+#s-9 span
+{
+    color: #82dfb0;
+}
+/* service section css over */
+
+/* why choose us section css start */
+
+.choose-us
+{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.choose-we
+{
+    background-image: url(images/assetbg.jpeg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.choose-we::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(255,255,255);
+    opacity: .90;
+}
+.choose-us-ttl p
+{
+    color: #757171;
+    position: relative;
+}
+.choose-us-ttl h3 
+{
+    font-weight: 800;
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+    letter-spacing: 0.3px;
+}
+.choose-box
+{
+    width: 33.33%;
+    padding: 0 15px;
+    /* position: relative; */
+}
+/* form css start */
+.form-area
+{
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    position: relative;
+}
+.form-padding
+{
+    padding: 20px;
+}
+.form-padding h4
+{
+    margin-bottom: 25px;
+}
+.form-group
+{
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.43;
+}
+label
+{
+    cursor: pointer;
+    color: #787777;
+    font-size: 12px;
+    font-weight: 550;
+}
+.form-control
+{
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #555;
+    border: 1.7px solid #ddd;
+    border-radius: 30px; 
+}
+#name
+{
+    padding: 10px;
+}
+#email
+{
+    padding: 10px;
+}
+#number
+{
+    padding: 10px;
+}
+.form-from
+{
+    width: 50%;
+    margin-right: 15px;
+}
+.form-to
+{
+    width: 50%;
+    margin-left: 15px;
+}
+.form-group button
+{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #787777;
+    background-color: white;
+    border: 1.7px solid #ddd;
+    margin-left: 5px;
+    font-size: 12px;
+    transition: 0.4s;
+}
+#btn1
+{
+    background-color: #1377dc;
+    color: white;
+    border: 1.7px solid #1377dc;
+}
+.form-group button:hover
+{
+    background-color: #1377dc;
+    color: white;
+    border: 1.7px solid #1377dc;
+}
+.form-area hr
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.form-footer .checkbox
+{
+    margin-right: 6px;
+    margin-top: 3px;
+}
+.form-footer
+{
+    vertical-align: middle;
+}
+.form-submit button
+{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: #1377dc;
+    border: 1.7px solid #1377dc;
+    margin-left: 5px;
+    font-size: 12px;
+    transition: 0.4s;
+    /* text-align: right; */
+    margin-left: 40px;
+}
+.form-submit button:hover
+{
+    background-color: white;
+    color: #1377dc;
+    border: 1.7px solid #1377dc;
+}
+/* form css over */
+
+.choose-box img
+{
+    height: 580px;
+    padding: 15px 0;
+    position: relative;
+}
+.choose-info
+{
+    padding: 15px 0;
+    position: relative;
+}
+.choose-icon
+{
+    /* width: 80px; */
+    /* height: 80px; */
+    font-size: 50px;
+    color: #a7b5f6;
+    text-align: center;
+}
+.choose-content
+{
+    margin-left: 30px;
+}
+.choose-content h4
+{
+    margin: 0 0 7px;
+    font-weight: 700;
+}
+.choose-content hr
+{
+    width: 40px;
+    margin-bottom: 7px;
+    border: 1.5px solid #1377dc;
+}
+.choose-content p
+{
+    color: #555;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.43;
+}
+.choose-box #icon2
+{
+    color: #e9aae1;
+}
+.choose-box #icon3
+{
+    color: #e35151;
+}
+.choose-box #icon4
+{
+    color: #8cc6f4;
+}
+/* why choose us section css over */
+
+/* our doctor css start */
+
+.d-section
+{
+    background-color: #f6f6f6;
+}
+.doctor
+{
+    width: 25%;
+    margin: 15px;
+}
+.doctor-img img
+{
+    width: 100%;
+}
+.doctor-img
+{
+    transition: 0.4s;
+    opacity: 1;
+    position: relative;
+}
+.doctor-name
+{
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 1px 10px rgb(0, 0, 0 ,10%);
+}
+.doctor-name h4
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-bottom: 5px;
+}
+
+.doctor-name h5
+{
+    color: #207fdd;
+}
+.doctor:hover > .doctor-img
+{
+    background-color: #7b7979;
+    z-index: 10;
+    /* opacity: 1; */
+}
+
+/* our doctor css over */
+
+/* department css start */
+
+#dep-1
+{
+    width: 33.33%;
+}
+#dep-2
+{
+    width: 350px;
+}
+#dep-3
+{
+    padding-top: 20px;
+}
+.dep-menu
+{
+    padding: 0 10px;
+}
+.menu-box
+{
+    margin: 5px;
+    padding: 15px;
+    font-size: 50px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 190px;
+    height: 130px;
+}
+.menu-box h4
+{
+    margin-top: 10px;
+    font-size: 18px;
+    /* color: #1679dd; */
+    text-align: center;
+    font-weight: 540;
+    line-height: 1.1;
+}
+.dep-icon
+{
+    padding: 50px;
+    font-size: 250px;
+    text-align: center;
+}
+.icon-sec
+{
+    margin: auto;
+}
+.dep-detail h2
+{
+    margin: 20px 0;
+    font-size: 500;
+    line-height: 1.1;
+}
+.dep-detail p
+{
+    margin-bottom: 30px;
+    color: #555;
+    letter-spacing: 1px;
+    line-height: 1.43;
+    font-size: 14px;
+}
+.dep-btn button
+{
+    padding: 12px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.dep-btn .btn1
+{
+    background-color: #1377dc;
+    color: white;
+    border: 2px solid #1377dc;
+    margin-right: 10px;
+}
+.dep-btn .btn1:hover
+{
+    background-color: white;
+    color: #1377dc;
+}
+.dep-btn .btn2:hover
+{
+    background-color: #1377dc;
+    color: white;
+    border: 2px solid #1377dc;
+}
+/* department css over */
+
+/* comment section css */
+
+.comment
+{
+    background-image: url(images/asset25.jpeg);
+    /* height: 60vh; */
+    height: 438px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.comment::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(255,255,255);
+    opacity: .90;
+}
+.custom-img 
+{
+    position: relative;
+    padding: 0 15px;
+    /* margin: 0 25px; */
+}
+.custom-img img
+{
+    margin: 0 25px;
+}
+.custom-comment
+{
+    margin-top: 120px;
+    position: relative;
+    padding: 0 15px;
+}
+.comment-ttl h1
+{
+    margin-bottom: 30px;
+}
+.comment-ttl p
+{
+    letter-spacing: 1px;
+    line-height: 1.70;
+    padding-left: 36px;
+    padding-right: 50px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.comment-ttl span
+{
+    position: absolute;
+    /* top: 2px; */
+    color: rgb(34, 34, 34);
+    font-size: 25px;
+}
+.customer
+{
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    font-weight: 550;
+    padding-left: 36px;
+}
+.customer span
+{
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: none;
+    padding-left: 3px;
+    letter-spacing: 1px;
+}
+/* comment section css over */
+
+/* footer css start */
+
+footer
+{
+    background-color: #323232;
+    position: relative;
+    padding: 70px 0;
+    color: #fff;
+    margin-top: 100px;
+}
+.appointment-link
+{
+    position: relative;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 70px;
+}
+.ap-icon
+{
+    /* display: table-cell; */
+    margin-right: 20px;
+    font-size: 25px;
+}
+.ap-text h3
+{
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 1.1;
+}
+.ap-text h2
+{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.ap-btn
+{
+    padding-left: 105px;
+    margin-top: 10px;
+    /* vertical-align: middle; */
+}
+.ap-btn button
+{
+    background: #207fdd;
+    border-radius: 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: 2px solid transparent;
+    transition: all .3s ease;
+}
+.ap-btn button:hover
+{
+    background-color: white;
+    border: 2px solid #1377dc;
+    color: #1377dc;
+}
+.foot-box
+{
+    width: 25%;
+}
+.add-inner
+{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.43;
+    padding: 0 15px;
+}
+.add-inner img
+{
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+.add-inner p
+{
+    margin: 0 0 15px;
+    letter-spacing: 1px;
+}
+.address span
+{
+    color: #fff;
+    line-height: 1.6;
+    position: relative;
+    margin-bottom: 0;
+    font-size: 18px;
+    padding-right: 13px;
+}
+.address 
+{
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.foot-ttl
+{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.add-inner h4
+{
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 10px;
+    margin: 0 0 30px;
+}
+.post img
+{
+    width: 60px;
+    height: 50px;
+    margin-right: 15px;
+    float: left;
+}
+.post ul li a
+{
+    font-weight: 600 ;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 10px;
+}
+.post ul li
+{
+    padding-bottom: 40px;
+}
+.post span
+{
+    /* display: inline-block; */
+    padding-top: 5px;
+    font-size: 12px;
+    position: relative;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 500;
+}
+.foot-box .add-inner
+{
+    width: 100%;
+}
+.tweet
+{
+    margin-bottom: 30px;
+}
+.tweet span
+{
+    color: #1377dc;
+    float: left;
+    padding-right: 15px;
+    font-size: 17px;
+}
+.tweet p
+{
+    margin-left: 32px;
+}
+.tweet label
+{
+    margin-left: 30px;
+}
+.map-box
+{
+    height: 230px;
+    width: 270px;
+    background-color: whitesmoke;
+    position: relative;
+    padding: 15px;
+}
+.map-box span
+{
+    font-size: 50px;
+    color: #555;
+    margin: auto;
+    /* position: absolute; */
+    margin: 0 100px;
+    padding-top: 20px;
+}
+.map-box h3
+{
+    color: rgb(61, 60, 60);
+    font-size: 23px;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 1.1;
+    /* position: absolute; */
+}
+.map-box p
+{
+    color: rgb(61, 60, 60);
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 20px;
+    letter-spacing: 0;
+    line-height: 1;
+    font-weight: 200;
+}
+
+/* footer css over */
+
+/* sun footer css start */
+
+.sub-footer
+{
+    background-color: #2a2a2a;
+    padding: 20px 0;
+}
+.sub-footer
+{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.43;
+}
+/* sun footer css over */
